@@ -127,7 +127,7 @@ class ViewController: UIViewController {
             print("Second button tapped")
         }
         
-        let icon = UIImage(named:"custom_icon.png")
+        let icon = UIImage(named:"custom_icon")
         let color = UIColor.orangeColor()
         
         alert.showCustom("Custom Color", subTitle: "Custom color", color: color, icon: icon!)
